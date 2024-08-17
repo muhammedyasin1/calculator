@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    background-color: rgb(53, 177, 208);
+    overflow: hidden;
+    background-image: url('https://th.bing.com/th/id/R.ec8bfa0534e60608eebcad775b2cd784?rik=RS6iF6MPd7543A&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f0%2fe%2ff%2f452781.jpg&ehk=NHbfRUHAaKj7JCZsOZjxOwZ2wY4HacndsJQ47SkLwE0%3d&risl=&pid=ImgRaw&r=0');
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+
+}
+
+button{
+    width: 70px;
+    height: 50px;
+    border: none;
+    background-color: hwb(0 26% 74%);
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+   border: 1px solid black;
+   border-radius: 30px;
+    box-shadow: 1px 2px 6px black;
+   
+   
+    margin-left: -5px;
+}
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4,0fr);
+    gap: 10px;
+    padding: 25px;
+   
+    
+}
+#calculator{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:grey;
+    max-width: 350px;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-right: 400px;
+    margin-top: 200px;
+    box-shadow: 8px 15px 25px black;
+   
+   
+}
+#display{
+    width: 270px;
+    height: 100px;
+    margin-left: 13px;
+    margin-top: 19px;
+    margin-bottom: 10px;
+   
+  
+    font-size: 5rem;
+    text-align: left;
+    background-color: hwb(122 73% 14%);
+    color: rgb(0, 0, 0);
+    font-size: 3rem;
+   border: 20px ridge black;
+    border-radius: 30px;
+  
+
+
+}
+button:hover{
+    background-color: rgb(130, 130, 130);
+}
+button:active{
+    background-color: rgb(158, 162, 163); ;
+}
+.operator{
+    background-color: rgb(222, 173, 48);
+}
+.operator:hover{
+    background-color: rgb(217, 187, 111);
+
+}
+.operator:active{
+    background-color:rgb(251, 218, 134) ;
+}
+.special{
+    background-color: rgb(158, 162, 163);
+}
+.heading{
+    font-family: "Shadows Into Light", cursive;
+    position: absolute;
+    margin-left: 900px;
+    font-size: 120px;
+    color: rgb(255, 255, 255);
+}
